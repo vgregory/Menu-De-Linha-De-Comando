@@ -65,7 +65,6 @@ class _Opção:
         self.descrição = descrição
         self._função = função
 
-    # Métodos
     def executar(self):
         """Executa a função correspondente à opção."""
         self._função()
